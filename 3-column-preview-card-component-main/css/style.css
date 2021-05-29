@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F2F2F2;
+  padding: 0 10%;
+  font-size: 15px;
+}
+.bloks{
+  min-width: 300px;
+  min-height: 500px;
+  background-color: rgb(218, 31, 191);
+  margin: 100px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.blok{
+  flex: 1 0 300px;
+  height: 500px;
+  padding: 47px;
+}
+.blok > * + *{
+  margin-top: 40px;
+}
+.blok > * + button{
+  margin-top: 80px;
+}
+button{
+  width: 150px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  cursor: pointer;
+  margin-top: 40px;
+  font-family: 'Lexend Deca', "sans-serif";
+}
+button:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: #F2F2F2;
+}
+._orange{
+  background-color: hsl(31, 77%, 52%);
+}
+._color-orange{
+  color: hsl(31, 77%, 52%);
+}
+._blu{
+  background-color: hsl(184, 100%, 22%);
+}
+._color-blu{
+  color: hsl(184, 100%, 22%);
+}
+._green{
+  background-color: hsl(179, 100%, 13%);
+}
+._color-green{
+  color: hsl(179, 100%, 13%);
+}
+h2{
+  font-family: 'Big Shoulders Display', "cursive";
+  font-size: 44px;
+  color: rgb(255, 255, 255);
+}
+p{
+  width: 200px;
+  color: rgb(255, 255, 255);
+  font-family: 'Lexend Deca', "sans-serif";
+  font-size: 14px;
+}
